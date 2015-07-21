@@ -15,6 +15,6 @@ int main() {
 		printf("%c",map[i][x]);
 		cout << endl;
 	}
-	//
+	
 	return 0;
 }
