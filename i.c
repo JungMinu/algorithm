@@ -14,7 +14,8 @@ int main() {
 	for(int x=0;x<s;x++)
 		printf("%c",map[i][x]);
 		cout << endl;
-	}
+	}  
+
 	
 	return 0;
 }
