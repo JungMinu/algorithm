@@ -15,6 +15,7 @@ void input()
 			scanf("%c", &arr[i][j]);
 	}
 }
+
 void dfs(int n, int m)
 {
 	if (visit[n][m] == 1)
