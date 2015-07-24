@@ -36,6 +36,7 @@ int main() {
 				}
 			}
 EXIT_LOOP:;
+
 		  printf("%s %s\n", str, ok ? "YES" : "NO");
 		}
 	}
