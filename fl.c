@@ -10,6 +10,7 @@ void input()
 
 	for (i = 1; i <= a; i++)
 	{
+		
 		scanf("%c", &c);
 		for (j = 1; j <= b; j++)
 			scanf("%c", &arr[i][j]);
