@@ -14,6 +14,7 @@ void BFS(int v)
     queue[rear++] = v; // 큐에 v를 삽입하고 후단을 1 증가시킴
     while (front < rear) // 후단이 전단과 같거나 작으면 루프 탈출
     {
+
         // 큐의 첫번째에 있는 데이터를 제외하고 제외된 값을 가져오며, 전단 1 증가
         v = queue[front++];
         for (i = 1; i <= n; i++)
