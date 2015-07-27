@@ -7,6 +7,7 @@ int map[30][30], queue[30], visit[30]; // 인접 행렬과 큐와 방문 배열
  
 void BFS(int v)
 {
+ 
     int i;
  
     visit[v] = 1; // 정점 v를 방문했다고 표시
