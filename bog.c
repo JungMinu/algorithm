@@ -5,6 +5,7 @@ int dx[] = { 0,  1,  1,  1,  0, -1, -1, -1};
 int dy[] = {-1, -1,  0,  1,  1,  1,  0, -1};
 
 int main() {
+	
     int T;
 	scanf("%d", &T);
 	while (T--) {
