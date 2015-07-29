@@ -5,6 +5,7 @@
 using namespace std;
 char map[51][51];
 int g,s;
+
 int main() {
 	cin >> g >>s;
 	for(int i=0;i<g;i++)
