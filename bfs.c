@@ -11,7 +11,6 @@ void BFS(int v)
 
 {
  
- 
     int i;
  
     visit[v] = 1; // 정점 v를 방문했다고 표시
