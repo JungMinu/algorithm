@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+
 typedef struct coord	{	//데이터 구조체 DATA
 	int x, y;
 } DATA;
