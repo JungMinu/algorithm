@@ -27,6 +27,7 @@ void BFS(int v)
         for (i = 1; i <= n; i++)
         {
             // 정점 v와 정점 i가 만나고, 정점 i를 방문하지 않은 상태일 경우
+            
             if (map[v][i] == 1 && !visit[i])
             {
                 visit[i] = 1; // 정점 i를 방문했다고 표시
