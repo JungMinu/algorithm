@@ -2,6 +2,7 @@
 int a, b;
 char arr[200][200];
 int visit[200][200];
+
 void input()
 {
 	int i, j;
