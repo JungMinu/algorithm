@@ -8,6 +8,7 @@ typedef struct node
     struct node* nextNode; // 위의 노드를 가리키는 포인터 (스택이기 때문에)
 } Node;
  
+
 class Stack {
 private:
     int count; // = 스택에 존재하는 노드 수
