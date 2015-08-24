@@ -21,6 +21,7 @@ public:
         top = NULL; // top을 NULL로 초기화
         list = NULL; // list를 NULL로 초기화
     }
+    
     void push(string data)
     {
         Node* newNode = new Node; // 새로운 노드를 만든다
